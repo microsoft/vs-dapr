@@ -1,14 +1,64 @@
-# Project
+# Visual Studio Dapr Extension
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+The Dapr extension for Visual Studio enables you to view, manage, diagnose, and debug Dapr services within Visual Studio.
 
-As the maintainer of this project, please make a few updates:
+## Prerequisites
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+* [Visual Studio 2022 17.7.x](https://visualstudio.microsoft.com/vs/) [Community, Professional, or Enterprise] [ARM64 or AMD64]
+* [Dapr 1.11 or later](https://dapr.io)
+
+## Installation
+
+### Visual Studio Marketplace
+
+> [!NOTE]
+> Release builds of the Visual Studio Dapr Extension are not yet available via the Visual Studio marketplace.
+
+### Intermediate Builds
+
+Intermediate builds are available via an additional Visual Studio extension gallery.
+
+> [!WARNING]
+> Intermediate builds may contain incomplete features, are not extensively tested, may not meet your quality standards, and are intended for evaluation and feedback purposes. Use at your own risk.
+
+To get started, add the gallery to Visual Studio:
+
+1. From Visual Studio, select **Tools > Options**
+1. In the Options window, select **Environment > Extensions**
+1. Under **Additional Extensions Galleries**, click **Add**
+1. Update the name and URL:
+
+   * **Name:** Dapr
+   * **Url:** https://aka.ms/vs-dapr-gallery
+
+   ![Screenshot of the Visual Studio Options dialog with the Environments > Extensions category selected and showing the addition of the extension gallery.](assets/readme/VisualStudioOptionsExtensions.png)
+
+1. Click **Apply** to review the changes, and then **OK** to confirm and close the window
+1. From Visual Studio, select **Extensions > Manage Extensions**
+1. In the left menu, under **Online**, select the **Dapr** gallery you just created
+1. Click **Download** to download the extension
+
+   ![Screenshot of the Visual Studio Manage Extensions dialog with the Dapr extension gallery selected and showing the extension to be downloaded.](assets/readme/VisualStudioManageExtensions.png)
+
+1. Once the extension download is complete, close all Visual Studio windows to start the installation
+1. In the installation window, click **Modify** to finish installing
+
+   ![Screenshot of the Visual Studio extension (VSIX) installation window and showing the Modify button.](assets/readme/VisualStudioExtensionInstallation.png)
+
+1. Once modifications are complete, click **Close** to close the installation window
+
+## Use
+
+### Starting with the Dapr Extension
+
+1. Open your solution in Visual Studio
+1. Right-click the solution in Solution Explorer and select **Add > Dapr Run File**
+
+   ![Screenshot of Visual Studio Solution Explorer with the solution context menu open and showing the Add > Dapr Run File command.](assets/readme/SolutionAddDaprRunFile.png)
+
+1. You can now edit and add to the created `dapr.yaml` file
+
+   ![Screenshot of Visual Studio with the generated Dapr run file open in the YAML editor.](assets/readme/EditDaprRunFile.png)
 
 ## Contributing
 
