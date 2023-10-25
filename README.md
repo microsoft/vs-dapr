@@ -4,7 +4,7 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 ## Prerequisites
 
-* [Visual Studio 2022 17.7.x](https://visualstudio.microsoft.com/vs/) [Community, Professional, or Enterprise] [ARM64 or AMD64]
+* [Visual Studio 2022 17.8 Preview](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview) [Community, Professional, or Enterprise] [ARM64 or AMD64]
 * [Dapr 1.11 or later](https://dapr.io)
 
 ## Installation
@@ -35,12 +35,15 @@ To get started, add the gallery to Visual Studio:
 
 1. Click **Apply** to review the changes, and then **OK** to confirm and close the window
 1. From Visual Studio, select **Extensions > Manage Extensions**
-1. In the left menu, under **Online**, select the **Dapr** gallery you just created
-1. Click **Download** to download the extension
+1. In the toolbar **...** menu, under **Browsing Location**, select the **Dapr** gallery you just created
+
+   ![Screenshot of the Visual Studio Manage Extensions dialog with the Dapr showing the selection of the Dapr extension gallery from the ... menu.](assets/readme/VisualStudioSelectDaprGallery.png)
+
+1. Click **Install** to install the extension (once Visual Studio is closed)
 
    ![Screenshot of the Visual Studio Manage Extensions dialog with the Dapr extension gallery selected and showing the extension to be downloaded.](assets/readme/VisualStudioManageExtensions.png)
 
-1. Once the extension download is complete, close all Visual Studio windows to start the installation
+1. Close all Visual Studio windows to start the installation
 1. In the installation window, click **Modify** to finish installing
 
    ![Screenshot of the Visual Studio extension (VSIX) installation window and showing the Modify button.](assets/readme/VisualStudioExtensionInstallation.png)
