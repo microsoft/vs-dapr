@@ -4,8 +4,8 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 ## Prerequisites
 
-* [Visual Studio 2022 17.8 Preview](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview) [Community, Professional, or Enterprise] [ARM64 or AMD64]
-* [Dapr 1.11 or later](https://dapr.io)
+* [Visual Studio 2022 17.9.0 Preview 2](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview) [Community, Professional, or Enterprise] [ARM64 or AMD64]
+* [Dapr 1.12 or later](https://dapr.io)
 
 ## Installation
 
