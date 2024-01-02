@@ -4,8 +4,8 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 ## Prerequisites
 
-* [Visual Studio 2022 17.8 Preview](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview) [Community, Professional, or Enterprise] [ARM64 or AMD64]
-* [Dapr 1.11 or later](https://dapr.io)
+* [Visual Studio 2022 17.9.0 Preview 2](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview) [Community, Professional, or Enterprise] [ARM64 or AMD64]
+* [Dapr 1.12 or later](https://dapr.io)
 
 ## Installation
 
@@ -62,6 +62,27 @@ To get started, add the gallery to Visual Studio:
 1. You can now edit and add to the created `dapr.yaml` file
 
    ![Screenshot of Visual Studio with the generated Dapr run file open in the YAML editor.](assets/readme/EditDaprRunFile.png)
+
+### Preview Features
+
+Enabling the Dapr run file debugging experience was the initial concern for the extension but there is considerable other feature work in progress. While not availble by default, this work in progress can be enabled via feature flags.
+
+#### Enabling Dapr Preview Features
+
+1. Install [the Feature Flags extension](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.FeatureFlagsPreview), which allows you to view and modify Visual Studio feature flags
+1. Open **Tools > Options > Feature Flags**
+1. Enable the desired Dapr feature flags
+   - `Dapr.ToolWindows.Dapr`: Enables the new Dapr tool window
+
+> [!WARNING]
+> Preview features are not extensively tested, may not meet your quality standards, and are intended for evaluation and feedback purposes. Use at your own risk.
+
+#### Dapr Tool Window
+
+The Dapr tool window displays information about running Dapr applications, such as its loaded components and various ports, and will be familiar to users of the VS Code Dapr extension. It can be opened via the **View > Other Windows > Dapr** menu command. For applications using a "default" state store (i.e. Redis), you can also open an additional Dapr State Stores tool window to show just the state for that application.
+
+   ![Screenshot of Visual Studio with the Dapr and Dapr State Stores tool windows open.](assets/readme/DaprToolWindow.png)
+
 
 ## Contributing
 
