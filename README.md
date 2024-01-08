@@ -11,12 +11,11 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 ### Visual Studio Marketplace
 
-> [!NOTE]
-> Release builds of the Visual Studio Dapr Extension are not yet available via the Visual Studio marketplace.
+The extension can be downloaded and installed from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-dapr).
 
 ### Intermediate Builds
 
-Intermediate builds are available via an additional Visual Studio extension gallery.
+Intermediate builds are also available via an additional Visual Studio extension gallery.
 
 > [!WARNING]
 > Intermediate builds may contain incomplete features, are not extensively tested, may not meet your quality standards, and are intended for evaluation and feedback purposes. Use at your own risk.
@@ -65,7 +64,7 @@ To get started, add the gallery to Visual Studio:
 
 ### Preview Features
 
-Enabling the Dapr run file debugging experience was the initial concern for the extension but there is considerable other feature work in progress. While not availble by default, this work in progress can be enabled via feature flags.
+Enabling the Dapr run file debugging experience was the initial concern for the extension but there is considerable other feature work in progress. While not available by default, this work in progress can be enabled via feature flags.
 
 #### Enabling Dapr Preview Features
 
