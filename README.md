@@ -1,6 +1,17 @@
 # Visual Studio Dapr Extension
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ms-azuretools.vs-dapr) ![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/ms-azuretools.vs-dapr)
+
+
+
 The Dapr extension for Visual Studio enables you to view, manage, diagnose, and debug Dapr services within Visual Studio.
+
+## Changelog
+
+|Version|Update|
+|-|-|
+|0.1.109.3 (Preview)|Added tool window to monitor Dapr actor instances and state (preview).
+|0.1.102.1 (Preview)|Initial marketplace release with Dapr run file orchestration, debugging, and Dapr tool window to monitor running Dapr applications and state store state (preview).|
 
 ## Prerequisites
 
@@ -78,10 +89,16 @@ Enabling the Dapr run file debugging experience was the initial concern for the 
 
 #### Dapr Tool Window
 
-The Dapr tool window displays information about running Dapr applications, such as its loaded components and various ports, and will be familiar to users of the VS Code Dapr extension. It can be opened via the **View > Other Windows > Dapr** menu command. For applications using a "default" state store (i.e. Redis), you can also open an additional Dapr State Stores tool window to show just the state for that application.
+The Dapr tool window displays information about running Dapr applications, such as its loaded components and various ports, and will be familiar to users of the VS Code Dapr extension. It can be opened via the **View > Other Windows > Dapr** menu command.
 
-   ![Screenshot of Visual Studio with the Dapr and Dapr State Stores tool windows open.](assets/readme/DaprToolWindow.png)
+For applications using a "default" state store (i.e. Redis), you can also open an additional Dapr State Stores tool window to show just the state for that application.
 
+![Screenshot of Visual Studio with the Dapr and Dapr State Stores tool windows open.](assets/readme/DaprToolWindow.png)
+
+
+For applications using Dapr actors, you can also open an additional Dapr Actors tool window to show just the state for individual actor instances.
+
+![Screenshot of Visual Studio with the Dapr and Dapr Actors tool windows open.](assets/readme/DaprActorsToolWindow.png)
 
 ## Contributing
 
