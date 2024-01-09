@@ -10,7 +10,7 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 |Version|Update|
 |-|-|
-| 	0.1.109.3 (Preview)|Added tool window to monitor Dapr actor instances and state (preview).
+|0.1.109.3 (Preview)|Added tool window to monitor Dapr actor instances and state (preview).
 |0.1.102.1 (Preview)|Initial marketplace release with Dapr run file orchestration, debugging, and Dapr tool window to monitor running Dapr applications and state store state (preview).|
 
 ## Prerequisites
