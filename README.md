@@ -20,45 +20,7 @@ The Dapr extension for Visual Studio enables you to view, manage, diagnose, and 
 
 ## Installation
 
-### Visual Studio Marketplace
-
 The extension can be downloaded and installed from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-dapr).
-
-### Intermediate Builds
-
-Intermediate builds are also available via an additional Visual Studio extension gallery.
-
-> [!WARNING]
-> Intermediate builds may contain incomplete features, are not extensively tested, may not meet your quality standards, and are intended for evaluation and feedback purposes. Use at your own risk.
-
-To get started, add the gallery to Visual Studio:
-
-1. From Visual Studio, select **Tools > Options**
-1. In the Options window, select **Environment > Extensions**
-1. Under **Additional Extensions Galleries**, click **Add**
-1. Update the name and URL:
-
-   * **Name:** Dapr
-   * **Url:** https://aka.ms/vs-dapr-gallery
-
-   ![Screenshot of the Visual Studio Options dialog with the Environments > Extensions category selected and showing the addition of the extension gallery.](assets/readme/VisualStudioOptionsExtensions.png)
-
-1. Click **Apply** to review the changes, and then **OK** to confirm and close the window
-1. From Visual Studio, select **Extensions > Manage Extensions**
-1. In the toolbar **...** menu, under **Browsing Location**, select the **Dapr** gallery you just created
-
-   ![Screenshot of the Visual Studio Manage Extensions dialog with the Dapr showing the selection of the Dapr extension gallery from the ... menu.](assets/readme/VisualStudioSelectDaprGallery.png)
-
-1. Click **Install** to install the extension (once Visual Studio is closed)
-
-   ![Screenshot of the Visual Studio Manage Extensions dialog with the Dapr extension gallery selected and showing the extension to be downloaded.](assets/readme/VisualStudioManageExtensions.png)
-
-1. Close all Visual Studio windows to start the installation
-1. In the installation window, click **Modify** to finish installing
-
-   ![Screenshot of the Visual Studio extension (VSIX) installation window and showing the Modify button.](assets/readme/VisualStudioExtensionInstallation.png)
-
-1. Once modifications are complete, click **Close** to close the installation window
 
 ## Use
 
